@@ -1,0 +1,53 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.codekul.basicactivity.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_cut"
+        android:orderInCategory="101"
+        android:title="@string/action_cut"
+        android:icon="@drawable/ic_content_cut_black_24dp"
+        app:showAsAction="withText"
+        />
+
+    <item
+        android:id="@+id/action_cut1"
+        android:orderInCategory="102"
+        android:title="@string/action_cut1"
+        android:icon="@drawable/ic_content_cut_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_cut2"
+        android:orderInCategory="103"
+        android:title="@string/action_cut2"
+        android:icon="@drawable/ic_content_cut_black_24dp"
+        app:showAsAction="ifRoom"
+
+        />
+
+    <item
+        android:id="@+id/action_cut3"
+        android:orderInCategory="104"
+        android:title="@string/action_cut3"
+        android:icon="@drawable/ic_content_cut_black_24dp"
+        app:showAsAction="ifRoom"
+
+        />
+
+    <item
+        android:id="@+id/action_cut4"
+        android:orderInCategory="105"
+        android:title="@string/action_cut4"
+        android:icon="@drawable/ic_content_cut_black_24dp"
+        app:showAsAction="always"
+
+        />
+</menu>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BasicActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_next">NextActivity</string>
+    <string name="action_cut">Cut</string>
+    <string name="action_cut1">Cut1</string>
+    <string name="action_cut2">Cut2</string>
+    <string name="action_cut3">Cut3</string>
+    <string name="action_cut4">Cut4</string>
+</resources>
