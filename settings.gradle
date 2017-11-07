@@ -1,1 +1,1 @@
-include ':app', ':basicactivity'
+include ':app', ':basicactivity', ':navbardraweractivity', ':tabbedslideractivity', ':intentandintentfilter', ':broadcastreceiver', ':services', ':aidlclient', ':aidlserver', ':jobschedular'

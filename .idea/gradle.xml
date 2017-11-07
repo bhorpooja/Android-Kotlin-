@@ -8,8 +8,16 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/aidlclient" />
+            <option value="$PROJECT_DIR$/aidlserver" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/basicactivity" />
+            <option value="$PROJECT_DIR$/broadcastreceiver" />
+            <option value="$PROJECT_DIR$/intentandintentfilter" />
+            <option value="$PROJECT_DIR$/jobschedular" />
+            <option value="$PROJECT_DIR$/navbardraweractivity" />
+            <option value="$PROJECT_DIR$/services" />
+            <option value="$PROJECT_DIR$/tabbedslideractivity" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

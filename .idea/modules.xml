@@ -3,8 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/KotlinProjects.iml" filepath="$PROJECT_DIR$/KotlinProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aidlclient/aidlclient.iml" filepath="$PROJECT_DIR$/aidlclient/aidlclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aidlserver/aidlserver.iml" filepath="$PROJECT_DIR$/aidlserver/aidlserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/basicactivity/basicactivity.iml" filepath="$PROJECT_DIR$/basicactivity/basicactivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/broadcastreceiver/broadcastreceiver.iml" filepath="$PROJECT_DIR$/broadcastreceiver/broadcastreceiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intentandintentfilter/intentandintentfilter.iml" filepath="$PROJECT_DIR$/intentandintentfilter/intentandintentfilter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jobschedular/jobschedular.iml" filepath="$PROJECT_DIR$/jobschedular/jobschedular.iml" />
+      <module fileurl="file://$PROJECT_DIR$/navbardraweractivity/navbardraweractivity.iml" filepath="$PROJECT_DIR$/navbardraweractivity/navbardraweractivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/services.iml" filepath="$PROJECT_DIR$/services/services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tabbedslideractivity/tabbedslideractivity.iml" filepath="$PROJECT_DIR$/tabbedslideractivity/tabbedslideractivity.iml" />
     </modules>
   </component>
 </project>
