@@ -22,7 +22,7 @@ class MyService : Service() {
         mp?.start()
 
         showInForeground()
-
+//        return START_NOT_STICKY
         return START_STICKY
     }
 
@@ -51,7 +51,7 @@ class MyService : Service() {
             mChannel.enableVibration(true)
 
             val bldr = NotificationCompat.Builder(this, "1234")
-            bldr.setSmallIcon(R.drawable.ic_launcher_foreground)
+            bldr.setSmallIcon(R.drawable.ic_audiotrack_black_24dp)
                     .setContentText("Content Text")
                     .setContentInfo("Info")
                     .setContentTitle("Title")
@@ -63,7 +63,7 @@ class MyService : Service() {
 
         } else {
             val bldr = NotificationCompat.Builder(this)
-            bldr.setSmallIcon(R.drawable.ic_launcher_foreground)
+            bldr.setSmallIcon(R.drawable.ic_audiotrack_black_24dp)
                     .setContentText("Content Text")
                     .setContentInfo("Info")
                     .setContentTitle("Title")
