@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txtHdr"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:text="This is Header"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtFtr"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorAccent"
+        android:text="This if Footer"
+        android:textColor="#ffffff"
+        android:textSize="40sp"/>
+
+</LinearLayout>
