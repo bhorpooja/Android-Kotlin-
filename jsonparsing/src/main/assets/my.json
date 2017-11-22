@@ -1,0 +1,15 @@
+{
+    "nm": "Android",
+    "age": 123,
+    "isIndian": true,
+    "sal": 23.5,
+    "mobs": [
+        "Android",
+        "iOS",
+        "BB"
+    ],
+    "grp": {
+        "str": 10,
+        "ttl": "Okay"
+    }
+}
