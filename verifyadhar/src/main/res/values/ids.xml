@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnSend" type="id">send</item>
+    <item name="btnResend" type="id">resend</item>
+    <item name="lunch_menu_name" type="id">name</item>
+    <item name="lunch_menu_count" type="id">count</item>
+    <item name="txtAdhar" type="id">adhar</item>
+    <item name="txtNum" type="id">number</item>
+    <item name="txtOtp" type="id">otp</item>
+    <item name="btnVerify" type="id">verify</item>
+</resources>
