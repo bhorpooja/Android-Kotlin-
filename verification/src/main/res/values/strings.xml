@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Verification</string>
+    <string name="txtAdhar">adharNumber</string>
+    <string name="btnSend">send</string>
+    <string name="txtOtp">otp</string>
+    <string name="btnVerify">verify</string>
+    <string name="btnResend">resend</string>
+    <string name="btnClear">clear</string>
+</resources>
