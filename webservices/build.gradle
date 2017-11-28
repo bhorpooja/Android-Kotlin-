@@ -37,4 +37,10 @@ dependencies {
 
     compile 'com.google.code.gson:gson:2.8.1'
     compile 'com.android.volley:volley:1.0.0'
+
+    implementation "org.jetbrains.anko:anko-sdk25:0.10.2"
+    implementation "org.jetbrains.anko:anko-appcompat-v7:0.10.2"
+
+    implementation "org.jetbrains.anko:anko-sdk25-coroutines:0.10.2"
+    implementation "org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.2"
 }
