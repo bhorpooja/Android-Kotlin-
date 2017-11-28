@@ -9,6 +9,8 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.design.widget.TextInputEditText
 import android.support.design.widget.TextInputLayout
+import android.text.InputType.TYPE_CLASS_TEXT
+import android.text.InputType.TYPE_TEXT_VARIATION_PASSWORD
 import android.view.Gravity
 import android.widget.Button
 import android.view.View
@@ -79,7 +81,7 @@ class MainActivity : AppCompatActivity() {
                         id = R.string.txtOtp
                         textSize=24f
                         hint="Enter OTP"
-                        inputType= android.text.InputType.TYPE_CLASS_TEXT or android.text.InputType.TYPE_NUMBER_VARIATION_PASSWORD
+                        inputType= TYPE_CLASS_TEXT or TYPE_TEXT_VARIATION_PASSWORD
                     }
                 }.lparams(width= dip(100),height = wrapContent){
                     gravity=Gravity.CENTER
@@ -92,17 +94,16 @@ class MainActivity : AppCompatActivity() {
 
                     verify = button("verify adhar") {
                         id = R.string.btnVerify
-                        text = "Verify"
                         background = buttonBg()
                         textColor = Color.rgb(13, 71, 161)
                         typeface = Typeface.DEFAULT_BOLD
 //                        visibility = View.INVISIBLE
                         onClick {
                             if(otpNum.text.isNotEmpty()) {
-                            startActivity(Intent(this@MainActivity, VerifyActivity::class.java))
+                                startActivity(Intent(this@MainActivity, VerifyActivity::class.java))
 //                                otpNum.text.clear()
-                            backgroundColor=Color.rgb(21,101,192)
-                            textColor=Color.WHITE
+//                                backgroundColor=Color.rgb(21,101,192)
+//                                textColor=Color.WHITE
                             }
                             else{
                                 toast("Enter OTP First..!!")
@@ -122,6 +123,8 @@ class MainActivity : AppCompatActivity() {
                             toast("OTP Resend")
                             backgroundColor=Color.rgb(21,101,192)
                             textColor=Color.WHITE
+                            send.background=buttonBg()
+                            send.textColor = Color.rgb(13, 71, 161)
                             adharNum.text.clear()
                             otpNum.text.clear()
                         }
@@ -181,6 +184,7 @@ class MainActivity : AppCompatActivity() {
             otpNum.text.clear()
             adharNum.text.clear()
         }
+
     }
 
     fun buttonBg() = GradientDrawable().apply {

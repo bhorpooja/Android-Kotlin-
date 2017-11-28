@@ -6,4 +6,27 @@
     <string name="btnVerify">verify</string>
     <string name="btnResend">resend</string>
     <string name="btnClear">clear</string>
+    <string name="imgUser">userImage</string>
+    <string name="txtUser">userId</string>
+    <string name="txtId">uId</string>
+    <string name="txtAadharNum">adharId</string>
+    <string name="txtNumber">aId</string>
+    <string name="txtName">name</string>
+    <string name="txtDob">dob</string>
+    <string name="txtGender">gender</string>
+    <string name="txtPhone">phone</string>
+    <string name="txtCO">co</string>
+    <string name="txtHouse">house</string>
+    <string name="txtLandmark">landmark</string>
+    <string name="txtStreet">street</string>
+    <string name="txtLC">locality</string>
+    <string name="txtVtc">village</string>
+    <string name="txtSubdist">subdist</string>
+    <string name="txtDist">district</string>
+    <string name="txtState">state</string>
+    <string name="txtPC">pin</string>
+    <string name="txtPO">postal</string>
+    <string name="txtUId">UID</string>
+    <string name="txtEmail">email</string>
+    <string name="txtAddr">address</string>
 </resources>
